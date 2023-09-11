@@ -9,7 +9,7 @@ class Config:
     DATABASE_URI = os.environ.get("DATABASE_URI", "")  
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluste0")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
-    SESSION = os.environ.get("SESSION", "BQChAYUAw7KemilgEPykyLqj0y-8wWw2ythlERfecRfzIEosBvFm0_5ia73-5QWHKdwcgRT6Qsx6q7K9xFh_VcBLVlTybQMl9h9Ldposa4OC7lsHoD_WfpFxbpqX9Bdr-w0BOlS4-wT40t3PRQ-K_g_RA2jJXMOUyXGXMONl6DxTd0XJ3FA4xXzYagtakV3h7e8QhKyYA0-Y8ELDHEada-IyL9moKN8qJGvERokDKq0zs-aBJ33U6EfDKsdhxCYENgfy2Ne6AQZ01fuX5_jWlsjx6E94mCgPouOhYZo__Ys_8iPbWPiDZaHtztR-BsoVnA4BE-TLDy7xLq4iAoxsIB1K-qYC3gAAAAB1wruNAA")   
+    SESSION = os.environ.get("SESSION", "BQCR924ArSg4TglBmRLk0ZtxMnxUZrTU9NEZIWOHeU4us0LV8hsQMt2wBRiwDBfDSiUan84XONY1_jTDVe4AkPF-4K-ICFIKzS6Nvzv_Lg-fbQ0Mg32kRqKXizIYlN1bQ29VBHyLbPkgyB0ho19rg-CqZCQeb4s3wuq1LEobwx667V1rLfHHQpRE0GHD4X4ZZEYFeGvkgLMytPtyRdj9ve1ZaPHQRyHtFo0XNKtl895oxsPiO9-ZeGZ7no2Eg-XkHUZP6XZoFY1iyDVp1fQoKQYwgzIG3qxzXyQcvzkLB6Hs0gLIJnId36ZIptHQ1Vwlln5uCuVvBVrNToVfRcOTTvP8Gu424QAAAAFoyKurAA")   
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", ""))
     BOT_USERNAME= os.environ.get("BOT_USERNAME", "")
 
