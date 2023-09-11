@@ -12,10 +12,5 @@ class Config:
     COLLECTION_NAME = "Data"
     TO_CHANNEL      = "-1001643263442"
     BOT_USERNAME    = "forwardbypj_bot"
-
-
-
-
-
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
