@@ -1,17 +1,17 @@
 import os
 import logging
 class Config:                                                                   
-    API_ID = int(os.environ.get("API_ID", ""))
-    API_HASH = os.environ.get("API_HASH", "")       
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+    API_ID = int(os.environ.get("API_ID", "904789"))
+    API_HASH = os.environ.get("API_HASH", "2262ef67ced426b9eea57867b11666a1")       
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6073974860:AAFbAeQ8aDlyZkwRQRzNSrM3kl9TJ5pWBK8")
     BOT_SESSION = os.environ.get("BOT_SESSION", "forwardbot")
-    OWNER_ID = os.environ.get("OWNER_ID", "")                             
-    DATABASE_URI = os.environ.get("DATABASE_URI", "")  
+    OWNER_ID = os.environ.get("OWNER_ID", "622730585")                             
+    DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://Surajrathod:Surajrathod.878@cluster0.f8wzeit.mongodb.net/?retryWrites=true&w=majority")  
     DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluste0")
     COLLECTION_NAME = os.environ.get('COLLECTION_NAME', 'Data')
-    SESSION = os.environ.get("SESSION", "BQBGgbbYXzSajv_XzCRDxHn7XWoeNf5yWFo-j6GaQsQlka2TosNtKvSwjcaY1w3giun-KhXX_GpDPncBCbhoSwqYyYTmNH5oUDMGVNPoBUXaipidTy8ouQDDqdHQ7GMlfh1LmILasASPeXFQiTX6eEz8gr9K376yCSN0LrRiWt6EDXAbj90Vz3KTiWWeD8wSugGet8MGTx5GI8fsqapxGI2f9LaXcQJ7wPk97Vvybfu_uJOKjJJvovwJVxn-YWCWoi-pWuKYJ7Q9j4LNJxqm7GhWtNTo_K7uXDJqTdC2Z-YxKiWfwdnZLJYjACRnVJgNbolXI9OzTIoQeiMf0mQIDZLodcK7jQA")   
-    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", ""))
-    BOT_USERNAME= os.environ.get("BOT_USERNAME", "")
+    SESSION = os.environ.get("SESSION", "BQAmCvXjxtaDNtM5YRBoW53u2RKFas7wGQ03pwIygzuaKTKDEMYkeLYQpOo88Sf1ftxtcA1V7-XQ4RkI6KYEAE7CnC7ZFJuvMnN3fz5dKZT3AF9cThIgO_A57PcDuw54CN7CFguF586pKBYGd4h6m68w16CmA7faF8RmAD9BxOQw-O1Fb83zekJ4NiayOxg_5J-op6NcKLIcwNcRCVcPMEJNZ6izP-FHtR0q2GXVBNH9X8lbmwNtDpJMUnbedPe-bGWO4L8bBgkCaCxbMPUPLdOFW8RW5hu_I7Zxa331E7sHgVlHY_V1wlXKsumTmckt0OZcyyxsyROx5cxV94O__o81O822PAA")   
+    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001792799649"))
+    BOT_USERNAME= os.environ.get("BOT_USERNAME", "clone_878_bot")
 
 
 def LOGGER(name: str) -> logging.Logger:
